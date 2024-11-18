@@ -1,0 +1,131 @@
+body {
+    font-family: 'Old Standard TT', sans-serif;
+    font-size: 16px; 
+    font-weight: 400;
+    margin: 0;
+}
+
+/*header stuff here*/
+header {
+    background-color: #41729f;
+    padding: 1.5rem 1vw;
+
+}
+header h1 {
+    color:#c3e0e5;
+    margin:0;
+}
+header p{
+    color:#c3e0e5;
+    margin: 0;
+    
+}
+
+/*nav stuff here*/
+nav {
+    background-color: #274472;
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    margin: 0;
+    padding: 0 1vw;
+}
+nav a {
+    color: #c3e0e5;
+    padding: 1rem 2rem;
+    display: block;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+nav li.active a {
+    background-color: #c3e0e5;
+        color: #274472;
+    
+}
+nav a:hover{
+    color:#aaa;
+}
+
+/*main stuff here*/
+main h1{
+    padding: 0 1vw;
+    color: #41729f;
+}
+main p{
+    padding: 0 1vw;
+}
+main h2 {
+    padding: 0 1vw;
+    color: #274472;
+}
+main address{
+    padding: 0 1vw;
+}
+main a {
+    color: #274472;
+
+}
+main a:hover{
+    color: #aaa;
+}
+main ul{
+    list-style-type:square; 
+}
+main li{
+    padding: .5rem;
+    margin: .5rem;
+}
+main dl dt{
+    color:#5885af;
+    padding: 0 1vw;
+}
+main dl dd{
+    color: #274472;
+    padding: 0 1vw;
+} 
+
+
+
+figure.guitarman {
+    float: right;
+    width: 30%;
+}
+
+figure.guitarman img {
+    width: 100%;
+    height: auto;  
+}
+
+figure.guitarman figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+div.pics{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.pics figcaption {
+    text-align: center;
+    font-size: .75rem;
+}
+
+
+
+
+
+
+
+
+/*footer stuff here*/
+footer {
+    text-align: center;
+    font-size: .7rem;
+    background-color: #c3e0e5;
+    font-weight: 700;
+    clear:both;
+} 
+footer a {
+    color: #274472;
+}
