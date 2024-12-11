@@ -1,39 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>dwdd 1600 assignment list page</title>
-	</head>
-	<body>
-		<h1>Stetson Dahl Web Essentials Assignment Page</h1>
-		<p><a href="01test">My Test Assignment</a></p>
-		
-		<h3>Module 3</h3>
-		<p><a href="03follow-along">03 Follow Along</a></p>
-		<p><a href="03hand-coding">Hand Coding Assignment</a></p>
-		
-		<h3>Module 4</h3>
-		<p><a href="04follow-along">04 Follow Along</a></p>
-		<p><a href="04intro-css">Introduction to CSS Assignment</a></p>
-		
-		<h3>Module 5</h3>
-		<p><a href="05follow-along">05 Follow Along</a></p>
-		<p><a href="05images">Images Assignment</a></p>
-		
-		<h3>Module 6</h3>
-		<p><a href="06follow-along">06 Follow Along</a></p>
-		<p><a href="06form">Web Form Assignment</a></p>
-		
-		<h3>Module 7</h3>
-		<p><a href="07follow-along">07 Follow Along</a></p>
-		<p><a href="07advanced-css">Advanced CSS</a></p>
-		
-		<h3>Module 8</h3>
-		<p><a href="08follow-along">06 Follow Along</a></p>
-		<p><a href="08media">Media Assignment</a></p>
-		
-		<h3>Optional Capstone Activity</h3>
-		<p><a href="vacation">Vacation Web Site</a></p>
-	</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mastering the Guitar: Home</title>
+        <link rel="stylesheet" href="guitar.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width-device-width, inital-scale-1">
+        <meta name="description" content="Unlock Your Full Potential">
+        <meta name="author" content="Stetson Dahl">
+    </head>
+
+    <body>
+        <!-- Start of the page header-->
+        <header>
+            <h1>Mastering the Guitar</h1>
+            <p>Unlock Your Full Potential</p>
+        </header>
+
+        <!-- Start of the navagation-->
+        <nav>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="lessons.html">Lessons</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="apply.html">Apply</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Start of the page content-->
+        <main>
+            <h1>Home</h1>
+
+            <figure class="guitarman">
+                <img src="images\guitar-with-man.jpg" alt="Man With Guitar" width="200" height="300">
+                <figcaption>Man With Guitar</figcaption>
+            </figure>
+
+            <p>Welcome to Mastering the Guitar. With this course, you will be able to <strong>Unlock Your Full Potential</strong>. Through lessons that I have prepared, we will journey with each other to see how well you can become. <a href="lessons.html#lesson"><em>Let's start today!</em></a></p>
+            
+            <h2>My Vision</h2>
+            <ul>
+                <li>I want people to learn this beautiful instrument.</li>
+                <li>People will be able to learn efficently with my course.</li>
+                <li>People will get to the level that they want to get to.</li>
+            </ul>
+            <address>
+                Mastering the Guitar<br>
+                Meadow UT<br>
+                #### W. #### S.<br>
+            </address>
+        </main>
+        
+        <!-- Start of the page footer-->
+        <footer>
+            <h2>Contact Information</h2>
+            <p><a href="tel:4359792669">Call Me</a></p>
+            <p>&copy; 2024 &bull; Stetson Dahl &bull; <a href="mailto:rob542021@gmail.com">Email Me</a></p>
+            
+        </footer>
+    </body>
+
+   
 </html>
+
+
+
+
+.applyForm fieldset{
+    border: 2px #274472;
+    margin-top: 2rem;
+
+}
+
+.applyForm legend{
+    color:#274472;
+    margin: .7rem;
+    font-size: 1.2rem;
+    
+}
+
+.applyForm label{
+    margin: .7rem;
+    
+
+}
+
+.applyForm label, .applyForm select, .applyForm textarea, .applyForm [type=text], .applyForm [type=tel], .applyForm [type=email] {
+    display: block;
+}
+
+.applyForm [type=text], .applyForm [type=tel], .applyForm [type=email], .applyForm textarea, .applyForm select {
+    border: solid 2px;
+    border-radius: .5rem;
+    color: #274472;
+}
+
+.applyForm [type=submit] {
+    margin: .7rem;
+    padding: 1rem;
+    background-color: #c3e0e5;
+    border-radius: .5rem;
+    padding: 2rem;
+}
+
+.applyForm :required{
+    background-color: #c3e0e5;
+}
+
+
+
+
+
+
