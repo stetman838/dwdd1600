@@ -209,6 +209,30 @@ div.pics img:hover{
     background-color: #c3e0e5;
 }
 
+table.guitartypes {
+    width:100%;
+    border-collapse: collapse;
+}
+
+table.guitartypes th {
+    text-align: left;
+    padding: .5rem;
+    background-color: #274472;
+    color: white;
+}
+
+table.guitartypes td {
+    padding: .5rem;
+    color: #4b4444;
+}
+
+table.guitartypes tr:nth-child(odd) {
+    background-color: #41729f;
+}
+
+table.guitartypes tr:hover {
+    background-color: #aaa;
+}
 
 
 
